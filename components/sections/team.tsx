@@ -91,7 +91,7 @@ const teamMembers = [
   {
     linkedin: 'https://www.linkedin.com/in/mau-me/',
     name: 'Mauricio Menezes',
-    role: 'Arquiteto de Soluções | Especialista em IA & Machine Learning',
+    role: 'Arquiteto de Soluções | Especialista em IA & Machine Learning | Palestrante de Tecnologia',
     description:
       'Desenvolvedor e especialista em IA com experiência em projetos de machine learning, visão computacional e automação de processos. Com forte conhecimento em Python, Linux e ferramentas de containerização, atua na criação de soluções inovadoras e escaláveis que integram inteligência artificial em aplicações práticas.',
     skills: [
