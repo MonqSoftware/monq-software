@@ -9,8 +9,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Link href="/" className="flex items-center gap-2">
-                <img src="/monq-logo.png" alt="MONQ Logo" className="w-8 h-8 rounded-full" />
-                <span className="text-[#F2F2F0] font-medium">MONQ Software</span>
+                <span className="text-foreground font-medium">TSALECH Engenharia</span>
               </Link>
             </div>
             <p className="text-[#8C8C88] mb-4">Transformando Ideias em Histórias de Sucesso em Software</p>
@@ -62,7 +61,7 @@ export function Footer() {
                 <MapPin size={16} />
                 <span>Salvador, Bahia, Brazil</span>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="mailto:contato@monqsoftware.com"
                   className="flex items-center gap-2 text-[#8C8C88] hover:text-[#F2F2F0] transition-colors"
@@ -70,7 +69,7 @@ export function Footer() {
                   <Mail size={16} />
                   <span>monqsoftware@gmail.com</span>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="https://wa.me/5571999648913?text=Tenho%20uma%20ideia%20de%20software"
@@ -86,7 +85,7 @@ export function Footer() {
         </div>
         <div className="border-t border-[#595956]/20 pt-12">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-[#8C8C88] mb-4 md:mb-0">© 2025 MONQ Software. Todos os direitos reservados.</p>
+            <p className="text-[#8C8C88] mb-4 md:mb-0">© 2025 TSALECH Engenharia. Todos os direitos reservados.</p>
             <div className="flex gap-6">
               <Link
                 href="https://www.termsfeed.com/live/16725834-26e9-4e8a-8958-b35cb49c74c9"

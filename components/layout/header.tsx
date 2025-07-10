@@ -61,8 +61,7 @@ export function Header() {
             transition={{ duration: 0.5 }}
           >
             <Link href="/" className="flex items-center gap-2">
-                <img src="/monq-logo.png" alt="MONQ Logo" className="w-8 h-8 rounded-full" />
-              <span className="text-[#F2F2F0] font-medium">MONQ Software</span>
+              <span className="text-[#F2F2F0] font-medium">TSALECH Engenharia</span>
             </Link>
           </motion.div>
 
