@@ -31,16 +31,16 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-4xl md:text-6xl font-bold text-[#F2F2F0] mb-4 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4 leading-tight">
               Engenharia Digital 
               <br />
               para Soluções de Alto Impacto!
             </h1>
-            <p className="text-xl text-[#8C8C88] mb-8 max-w-lg">
+            <p className="text-xl text-muted-foreground mb-8 max-w-lg">
               Unimos inovação e excelência para transformar o seu negócio.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-[#595956] hover:bg-[#595956]/80 text-[#F2F2F0] group"
+              <Button size="lg" className="bg-primary hover:bg-primary/80 text-foreground group"
                 onClick={() => window.open('https://wa.me/5571999648913?text=Tenho%20uma%20ideia%20de%20software')}
               >
                 <span>Vamos Conversar</span>
@@ -50,7 +50,7 @@ export function Hero() {
                 variant="outline"
                 size="lg"
                 onClick={() => window.location.href = "#projetos"}
-                className="border-[#595956] text-[#F2F2F0] hover:bg-[#595956]/20 group"
+                className="border-primary text-foreground hover:bg-accent/20 group"
               >
                 <span>Ver Projetos</span>
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -63,7 +63,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="absolute inset-0 bg-gradient-to-b from-[#00010D] via-[#00010D]/95 to-[#00010D]"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background"></div>
     </section>
   )
 }

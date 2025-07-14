@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 import { usePathname } from "next/navigation"
+import { ThemeToggle } from "@/components/ui/theme-toggle"
 
 export function Header() {
   const [activeSection, setActiveSection] = useState<string>("home")
@@ -48,9 +49,13 @@ export function Header() {
 
   return (
     <header
-      className={`py-6 sticky top-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-[#00010D]/90 backdrop-blur-md shadow-lg" : "bg-transparent"
-      }`}
+      className={`py-6 sticky top-0 z-50 transition-all duration-300 backdrop-blur-md ${isScrolled ? "shadow-lg" : ""
+        }`}
+      style={{
+        backgroundColor: isScrolled
+          ? "hsl(var(--background) / 0.9)"
+          : "hsl(var(--background))",
+      }}
     >
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between">
@@ -61,7 +66,7 @@ export function Header() {
             transition={{ duration: 0.5 }}
           >
             <Link href="/" className="flex items-center gap-2">
-              <span className="text-[#F2F2F0] font-medium">TSALECH Engenharia</span>
+              <span className="text-foreground font-medium">TSALECH Engenharia</span>
             </Link>
           </motion.div>
 
@@ -75,14 +80,13 @@ export function Header() {
               >
                 <Link
                   href={item.href}
-                  className={`relative px-2 py-1 transition-colors ${
-                    activeSection === item.href.substring(1) ? "text-[#F2F2F0]" : "text-[#8C8C88] hover:text-[#F2F2F0]"
-                  }`}
+                  className={`relative px-2 py-1 transition-colors ${activeSection === item.href.substring(1) ? "text-foreground" : "text-muted-foreground hover:text-foreground"
+                    }`}
                 >
                   {item.name}
                   {activeSection === item.href.substring(1) && (
                     <motion.span
-                      className="absolute bottom-0 left-0 w-full h-0.5 bg-[#595956]"
+                      className="absolute bottom-0 left-0 w-full h-0.5 bg-primary"
                       layoutId="activeSection"
                       transition={{ type: "spring", stiffness: 380, damping: 30 }}
                     />
@@ -92,10 +96,11 @@ export function Header() {
             ))}
           </div>
 
+          <ThemeToggle />
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden text-[#F2F2F0]"
+            className="md:hidden text-foreground"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             <span className="sr-only">Abrir menu</span>
@@ -121,7 +126,7 @@ export function Header() {
         {/* Menu Mobile */}
         {isMobileMenuOpen && (
           <motion.div
-            className="md:hidden mt-4 bg-[#0D0D0D] rounded-lg shadow-lg p-4"
+            className="md:hidden mt-4 bg-card rounded-lg shadow-lg p-4"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
@@ -132,11 +137,10 @@ export function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className={`px-4 py-2 rounded-md transition-colors ${
-                    activeSection === item.href.substring(1)
-                      ? "bg-[#595956]/20 text-[#F2F2F0]"
-                      : "text-[#8C8C88] hover:bg-[#595956]/10 hover:text-[#F2F2F0]"
-                  }`}
+                  className={`px-4 py-2 rounded-md transition-colors ${activeSection === item.href.substring(1)
+                    ? "bg-accent text-accent-foreground"
+                    : "text-muted-foreground hover:bg-accent/50 hover:text-accent-foreground"
+                    }`}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.name}

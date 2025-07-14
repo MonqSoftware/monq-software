@@ -26,7 +26,7 @@ const staggerContainer = {
 
 export function Stats() {
   return (
-    <section className="py-16 bg-[#0D0D0D]">
+    <section className="py-16 bg-card">
       <div className="container mx-auto px-4">
         <motion.div
           className="grid grid-cols-1 md:grid-cols-2 gap-8"
@@ -35,9 +35,9 @@ export function Stats() {
           viewport={{ once: true, amount: 0.3 }}
           variants={staggerContainer}
         >
-          <motion.div className="bg-[#00010D] rounded-2xl overflow-hidden" variants={fadeIn}>
+          <motion.div className="bg-background rounded-2xl overflow-hidden" variants={fadeIn}>
             <div className="p-8">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#F2F2F0] mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
                 <span className="text-primary">T</span>ecnologia
                 <br />
                 <span className="text-primary">S</span>ustentabilidade
@@ -52,39 +52,39 @@ export function Stats() {
                 <br />
                 <span className="text-primary">H</span>onestidade
               </h2>
-              <p className="text-[#8C8C88] mb-4">
+              <p className="text-muted-foreground mb-4">
                 Nossa abordagem simboliza raciocínio rápido, adaptação, criatividade e solução de problemas para
                 garantir que seu projeto tenha sucesso em todas as etapas.
               </p>
             </div>
           </motion.div>
           <div className="grid grid-cols-1 gap-6">
-            <motion.div className="bg-[#0D0D0D] border border-[#595956]/20 p-6 rounded-xl" variants={fadeIn}>
-              <h3 className="text-[#F2F2F0] text-lg mb-2">Habilidades</h3>
+            <motion.div className="bg-card border border-border/20 p-6 rounded-xl" variants={fadeIn}>
+              <h3 className="text-foreground text-lg mb-2">Habilidades</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex items-center gap-2 mb-4">
                   <Code className="text-[#8C8C88] h-5 w-5" />
-                  <span className="text-[#8C8C88]">Desenvolvimento Full-stack</span>
+                  <span className="text-muted-foreground">Desenvolvimento Full-stack</span>
                 </div>
                 <div className="flex items-center gap-2 mb-4">
-                  <Users className="text-[#8C8C88] h-5 w-5" />
-                  <span className="text-[#8C8C88]">Design UX/UI</span>
+                  <Users className="text-muted-foreground h-5 w-5" />
+                  <span className="text-muted-foreground">Design UX/UI</span>
                 </div>
                 <div className="flex items-center gap-2 mb-4">
-                  <Lightbulb className="text-[#8C8C88] h-5 w-5" />
-                  <span className="text-[#8C8C88]">Arquitetura de Soluções</span>
+                  <Lightbulb className="text-muted-foreground h-5 w-5" />
+                  <span className="text-muted-foreground">Arquitetura de Soluções</span>
                 </div>
                 <div className="flex items-center gap-2 mb-4">
-                  <Code className="text-[#8C8C88] h-5 w-5" />
-                  <span className="text-[#8C8C88]">Inteligência Artificial</span>
+                  <Code className="text-muted-foreground h-5 w-5" />
+                  <span className="text-muted-foreground">Inteligência Artificial</span>
                 </div>
                 <div className="flex items-center gap-2 mb-4">
-                  <Users className="text-[#8C8C88] h-5 w-5" />
-                  <span className="text-[#8C8C88]">DevOps & Cloud</span>
+                  <Users className="text-muted-foreground h-5 w-5" />
+                  <span className="text-muted-foreground">DevOps & Cloud</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Lightbulb className="text-[#8C8C88] h-5 w-5" />
-                  <span className="text-[#8C8C88]">Segurança & Compliance</span>
+                  <Lightbulb className="text-muted-foreground h-5 w-5" />
+                  <span className="text-muted-foreground">Segurança & Compliance</span>
                 </div>
               </div>
             </motion.div>

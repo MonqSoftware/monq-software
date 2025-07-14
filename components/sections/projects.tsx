@@ -127,7 +127,7 @@ const projects = [
 
 export function Projects() {
   return (
-    <section id="projetos" className="py-20 bg-[#0D0D0D]">
+    <section id="projetos" className="py-20 bg-card">
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-16"
@@ -136,8 +136,8 @@ export function Projects() {
           viewport={{ once: true }}
           variants={fadeIn}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-[#F2F2F0] mb-4">Projetos</h2>
-          <p className="text-xl text-[#8C8C88] max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Projetos</h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Explore nosso portfólio de soluções de software bem-sucedidas
           </p>
         </motion.div>
@@ -155,15 +155,15 @@ export function Projects() {
               whileHover={{ scale: 1.05, zIndex: 10 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
             >
-              <Card className="bg-[#00010D] border-[#595956]/20 overflow-hidden h-full hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-all duration-300">
+              <Card className="bg-background border-border/20 overflow-hidden h-full hover:shadow-[0_0_20px_rgba(var(--foreground),0.1)] transition-all duration-300">
                 <CardContent className="p-6 relative">
-                  <h3 className="text-xl font-bold text-[#F2F2F0] mb-2">{project.title}</h3>
-                  <p className="text-[#8C8C88] mb-4">{project.description}</p>
+                  <h3 className="text-xl font-bold text-foreground mb-2">{project.title}</h3>
+                  <p className="text-muted-foreground mb-4">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.technologies.map((tech, idx) => (
                       <Badge
                         key={idx}
-                        className="bg-[#ff0000]/10 text-[#ff0000] border-[#ff0000]/40 hover:bg-[#ff0000]/20 transition-colors"
+                        className="bg-destructive/10 text-destructive border-destructive/40 hover:bg-destructive/20 transition-colors"
                       >
                         {tech}
                       </Badge>
@@ -172,8 +172,8 @@ export function Projects() {
                   <div className="flex items-center gap-4">
                     {project.stats.map((stat, idx) => (
                       <div key={idx} className="flex items-center gap-2">
-                        <stat.icon className="text-[#00ffff] h-5 w-5" />
-                        <span className="text-[#00ffff]">{stat.text}</span>
+                        <stat.icon className="text-accent h-5 w-5" />
+                        <span className="text-accent">{stat.text}</span>
                       </div>
                     ))}
                   </div>

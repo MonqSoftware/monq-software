@@ -25,7 +25,7 @@ const staggerContainer = {
 
 export function Process() {
   return (
-    <section id="processo" className="py-20 bg-[#0D0D0D]">
+    <section id="processo" className="py-20 bg-card">
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-16"
@@ -34,8 +34,8 @@ export function Process() {
           viewport={{ once: true }}
           variants={fadeIn}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-[#F2F2F0] mb-4">Nosso Processo Ágil</h2>
-          <p className="text-xl text-[#8C8C88] max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Nosso Processo Ágil</h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Seguimos nossa maneira de entregar nossos valores de flexibilidade e escalabilidade
           </p>
         </motion.div>
@@ -47,13 +47,13 @@ export function Process() {
           variants={staggerContainer}
         >
           <motion.div variants={fadeIn}>
-            <Card className="bg-[#00010D] border-[#595956]/20 hover:bg-[#00010D]/80 transition-colors h-full">
+            <Card className="bg-background border-border/20 hover:bg-background/80 transition-colors h-full">
               <CardContent className="p-6">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-xl font-bold text-[#F2F2F0]">Planejamento</h3>
-                  <Badge className="bg-[#595956]">01</Badge>
+                  <h3 className="text-xl font-bold text-foreground">Planejamento</h3>
+                  <Badge className="bg-primary">01</Badge>
                 </div>
-                <p className="text-[#8C8C88]">
+                <p className="text-muted-foreground">
                   Planejamento abrangente do projeto para definir escopo, cronograma e recursos necessários para o
                   sucesso.
                 </p>
@@ -61,65 +61,65 @@ export function Process() {
             </Card>
           </motion.div>
           <motion.div variants={fadeIn}>
-            <Card className="bg-[#00010D] border-[#595956]/20 hover:bg-[#00010D]/80 transition-colors h-full">
+            <Card className="bg-background border-border/20 hover:bg-background/80 transition-colors h-full">
               <CardContent className="p-6">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-xl font-bold text-[#F2F2F0]">Definindo a Experiência do Usuário</h3>
-                  <Badge className="bg-[#595956]">02</Badge>
+                  <h3 className="text-xl font-bold text-foreground">Definindo a Experiência do Usuário</h3>
+                  <Badge className="bg-primary">02</Badge>
                 </div>
-                <p className="text-[#8C8C88]">
+                <p className="text-muted-foreground">
                   Criação de experiências de usuário intuitivas e envolventes através de design cuidadoso.
                 </p>
               </CardContent>
             </Card>
           </motion.div>
           <motion.div variants={fadeIn}>
-            <Card className="bg-[#00010D] border-[#595956]/20 hover:bg-[#00010D]/80 transition-colors h-full">
+            <Card className="bg-background border-border/20 hover:bg-background/80 transition-colors h-full">
               <CardContent className="p-6">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-xl font-bold text-[#F2F2F0]">Fundações Técnicas</h3>
-                  <Badge className="bg-[#595956]">03</Badge>
+                  <h3 className="text-xl font-bold text-foreground">Fundações Técnicas</h3>
+                  <Badge className="bg-primary">03</Badge>
                 </div>
-                <p className="text-[#8C8C88]">
+                <p className="text-muted-foreground">
                   Construção de arquitetura robusta e infraestrutura técnica para suportar sua solução.
                 </p>
               </CardContent>
             </Card>
           </motion.div>
           <motion.div variants={fadeIn}>
-            <Card className="bg-[#00010D] border-[#595956]/20 hover:bg-[#00010D]/80 transition-colors h-full">
+            <Card className="bg-background border-border/20 hover:bg-background/80 transition-colors h-full">
               <CardContent className="p-6">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-xl font-bold text-[#F2F2F0]">Implementação</h3>
-                  <Badge className="bg-[#595956]">04</Badge>
+                  <h3 className="text-xl font-bold text-foreground">Implementação</h3>
+                  <Badge className="bg-primary">04</Badge>
                 </div>
-                <p className="text-[#8C8C88]">
+                <p className="text-muted-foreground">
                   Desenvolvimento ágil com sprints regulares e integração contínua para código de qualidade.
                 </p>
               </CardContent>
             </Card>
           </motion.div>
           <motion.div variants={fadeIn}>
-            <Card className="bg-[#00010D] border-[#595956]/20 hover:bg-[#00010D]/80 transition-colors h-full">
+            <Card className="bg-background border-border/20 hover:bg-background/80 transition-colors h-full">
               <CardContent className="p-6">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-xl font-bold text-[#F2F2F0]">Ciclo de Feedback</h3>
-                  <Badge className="bg-[#595956]">05</Badge>
+                  <h3 className="text-xl font-bold text-foreground">Ciclo de Feedback</h3>
+                  <Badge className="bg-primary">05</Badge>
                 </div>
-                <p className="text-[#8C8C88]">
+                <p className="text-muted-foreground">
                   Testes iterativos e refinamento com base no feedback do cliente para garantir a satisfação.
                 </p>
               </CardContent>
             </Card>
           </motion.div>
           <motion.div variants={fadeIn}>
-            <Card className="bg-[#00010D] border-[#595956]/20 hover:bg-[#00010D]/80 transition-colors h-full">
+            <Card className="bg-background border-border/20 hover:bg-background/80 transition-colors h-full">
               <CardContent className="p-6">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-xl font-bold text-[#F2F2F0]">Lançamento</h3>
-                  <Badge className="bg-[#595956]">06</Badge>
+                  <h3 className="text-xl font-bold text-foreground">Lançamento</h3>
+                  <Badge className="bg-primary">06</Badge>
                 </div>
-                <p className="text-[#8C8C88]">
+                <p className="text-muted-foreground">
                   Implantação tranquila e suporte contínuo para garantir que sua solução prospere em produção.
                 </p>
               </CardContent>

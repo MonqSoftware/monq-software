@@ -52,7 +52,7 @@ Este documento detalha as modificações necessárias nos arquivos `.tsx` para g
 
 ### `components/sections/contact.tsx`
 
-**Status:** ❌ Pendente
+**Status:** ✅ Atualizado
 
 **Modificações Propostas:**
 
@@ -71,7 +71,7 @@ Este documento detalha as modificações necessárias nos arquivos `.tsx` para g
 
 ### `components/sections/hero.tsx`
 
-**Status:** ❌ Pendente
+**Status:** ✅ Atualizado
 
 **Modificações Propostas:**
 
@@ -90,7 +90,7 @@ Este documento detalha as modificações necessárias nos arquivos `.tsx` para g
 
 ### `components/sections/process.tsx`
 
-**Status:** ❌ Pendente
+**Status:** ✅ Atualizado
 
 **Modificações Propostas:**
 
@@ -108,7 +108,7 @@ Este documento detalha as modificações necessárias nos arquivos `.tsx` para g
 
 ### `components/sections/projects.tsx`
 
-**Status:** ❌ Pendente
+**Status:** ✅ Atualizado
 
 **Modificações Propostas:**
 
@@ -130,7 +130,7 @@ Este documento detalha as modificações necessárias nos arquivos `.tsx` para g
 
 ### `components/sections/services.tsx`
 
-**Status:** ❌ Pendente
+**Status:** ✅ Atualizado
 
 **Modificações Propostas:**
 
@@ -166,7 +166,7 @@ Este documento detalha as modificações necessárias nos arquivos `.tsx` para g
 
 ### `components/sections/team.tsx`
 
-**Status:** ❌ Pendente
+**Status:** ✅ Atualizado
 
 **Modificações Propostas:**
 
@@ -185,7 +185,7 @@ Este documento detalha as modificações necessárias nos arquivos `.tsx` para g
 
 ### `components/ui/back-to-top.tsx`
 
-**Status:** ❌ Pendente
+**Status:** ✅ Atualizado
 
 **Modificações Propostas:**
 
@@ -199,7 +199,7 @@ Este documento detalha as modificações necessárias nos arquivos `.tsx` para g
 
 ### `components/ui/sidebar.tsx`
 
-**Status:** ❌ Pendente
+**Status:** ✅ Atualizado
 
 **Modificações Propostas:**
 
@@ -223,7 +223,7 @@ Este documento detalha as modificações necessárias nos arquivos `.tsx` para g
 
 ### `components/ui/toast.tsx`
 
-**Status:** ❌ Pendente
+**Status:** ✅ Atualizado
 
 **Modificações Propostas:**
 
