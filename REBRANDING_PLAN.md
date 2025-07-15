@@ -1,10 +1,10 @@
-# Plano de Rebranding: Monq Software para TSALECH Engenharia
+# Plano de Rebranding: Monq Software para TSALEACH Engenharia
 
-Este plano detalha as etapas necessárias para renomear a empresa de "Monq Software" para "TSALECH Engenharia" em todo o codebase, incluindo a atualização de referências textuais e gráficas para manter a coesão e responsividade.
+Este plano detalha as etapas necessárias para renomear a empresa de "Monq Software" para "TSALEACH Engenharia" em todo o codebase, incluindo a atualização de referências textuais e gráficas para manter a coesão e responsividade.
 
 ## Novo Nome e Conceito
 
-**TSALECH Engenharia**
+**TSALEACH Engenharia**
 
 - **T** — Tecnologia: O sucesso é construído com Tecnologia.
 - **S** — Sustentabilidade: Uma empresa próspera pensa no futuro, buscando soluções que respeitam o meio ambiente e a sociedade.
@@ -16,14 +16,14 @@ Este plano detalha as etapas necessárias para renomear a empresa de "Monq Softw
 
 ## Ações Detalhadas
 
-### 1. Substituição de Texto "Monq Software" por "TSALECH Engenharia"
+### 1. Substituição de Texto "Monq Software" por "TSALEACH Engenharia"
 
 | Arquivo | `old_string` | `new_string` | Observações | Status |
 | :------ | :----------- | :----------- | :---------- | :----- |
-| `app/layout.tsx` | `title: 'Monq Software',` | `title: 'TSALECH Engenharia',` | Título da página. | ✅ Concluído |
-| `components/layout/footer.tsx` | `<span className="text-[#F2F2F0] font-medium">MONQ Software</span>` | `<span className="text-foreground font-medium">TSALECH Engenharia</span>` | Nome da empresa no rodapé. (Nota: `text-[#F2F2F0]` será `text-foreground` após a etapa de tema). | ✅ Concluído |
-| `components/layout/footer.tsx` | `<p className="text-[#8C8C88] mb-4 md:mb-0">© 2025 MONQ Software. Todos os direitos reservados.</p>` | `<p className="text-muted-foreground mb-4 md:mb-0">© 2025 TSALECH Engenharia. Todos os direitos reservados.</p>` | Direitos autorais no rodapé. (Nota: `text-[#8C8C88]` será `text-muted-foreground` após a etapa de tema). | ✅ Concluído |
-| `components/layout/header.tsx` | `<span className="text-[#F2F2F0] font-medium">MONQ Software</span>` | `<span className="text-foreground font-medium">TSALECH Engenharia</span>` | Nome da empresa no cabeçalho. (Nota: `text-[#F2F2F0]` será `text-foreground` após a etapa de tema). | ✅ Concluído |
+| `app/layout.tsx` | `title: 'Monq Software',` | `title: 'TSALEACH Engenharia',` | Título da página. | ✅ Concluído |
+| `components/layout/footer.tsx` | `<span className="text-[#F2F2F0] font-medium">MONQ Software</span>` | `<span className="text-foreground font-medium">TSALEACH Engenharia</span>` | Nome da empresa no rodapé. (Nota: `text-[#F2F2F0]` será `text-foreground` após a etapa de tema). | ✅ Concluído |
+| `components/layout/footer.tsx` | `<p className="text-[#8C8C88] mb-4 md:mb-0">© 2025 MONQ Software. Todos os direitos reservados.</p>` | `<p className="text-muted-foreground mb-4 md:mb-0">© 2025 TSALEACH Engenharia. Todos os direitos reservados.</p>` | Direitos autorais no rodapé. (Nota: `text-[#8C8C88]` será `text-muted-foreground` após a etapa de tema). | ✅ Concluído |
+| `components/layout/header.tsx` | `<span className="text-[#F2F2F0] font-medium">MONQ Software</span>` | `<span className="text-foreground font-medium">TSALEACH Engenharia</span>` | Nome da empresa no cabeçalho. (Nota: `text-[#F2F2F0]` será `text-foreground` após a etapa de tema). | ✅ Concluído |
 
 ### 2. Atualização de Referências Gráficas do Logotipo
 
@@ -39,7 +39,7 @@ O logotipo `monq-logo.png` será removido e substituído pelo nome da empresa ou
 
 | Arquivo | `old_string` | `new_string` | Observações | Status |
 | :------ | :----------- | :----------- | :---------- | :----- |
-| `components/sections/team.tsx` | `alt='Equipe MONQ Software'` | `alt='Equipe TSALECH Engenharia'` | Texto alternativo da imagem da equipe. | ✅ Concluído |
+| `components/sections/team.tsx` | `alt='Equipe MONQ Software'` | `alt='Equipe TSALEACH Engenharia'` | Texto alternativo da imagem da equipe. | ✅ Concluído |
 
 ## Próximos Passos
 

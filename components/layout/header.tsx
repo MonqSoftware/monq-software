@@ -66,7 +66,7 @@ export function Header() {
             transition={{ duration: 0.5 }}
           >
             <Link href="/" className="flex items-center gap-2">
-              <span className="text-foreground font-medium">TSALECH Engenharia</span>
+              <span className="text-foreground font-medium">TSALEACH Engenharia</span>
             </Link>
           </motion.div>
 
