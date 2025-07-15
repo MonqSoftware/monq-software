@@ -48,6 +48,8 @@ export function Stats() {
                 <br />
                 <span className="text-primary">E</span>xcelência
                 <br />
+                <span className="text-primary">A</span>gilidade
+                <br />
                 <span className="text-primary">C</span>riatividade
                 <br />
                 <span className="text-primary">H</span>onestidade

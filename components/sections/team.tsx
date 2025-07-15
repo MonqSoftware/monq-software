@@ -271,7 +271,7 @@ export function Team() {
               <div className='flex justify-center items-center'>
                 <Image
                   src='assets/image-desc.jpg'
-                  alt='Equipe TSALEACH Engenharia'
+                  alt='Equipe Tsaleach Engenharia'
                   width={500}
                   height={300}
                   className='rounded-xl shadow-lg'

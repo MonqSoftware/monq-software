@@ -58,7 +58,7 @@ export function Hero() {
             </div>
           </motion.div>
           <div className="md:w-1/2 flex justify-center">
-            <span className="text-4xl md:text-6xl font-bold text-foreground">TSALEACH</span>
+            <span className="text-4xl md:text-6xl font-bold text-foreground">Tsaleach</span>
           </div>
         </div>
       </div>

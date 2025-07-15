@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Link href="/" className="flex items-center gap-2">
-                <span className="text-foreground font-medium">TSALEACH Engenharia</span>
+                <span className="text-foreground font-medium">Tsaleach Engenharia</span>
               </Link>
             </div>
             <p className="text-muted-foreground mb-4">Transformando Ideias em Histórias de Sucesso em Software</p>
@@ -85,7 +85,7 @@ export function Footer() {
         </div>
         <div className="border-t border-border/20 pt-12">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-muted-foreground mb-4 md:mb-0">© 2025 TSALEACH Engenharia. Todos os direitos reservados.</p>
+            <p className="text-muted-foreground mb-4 md:mb-0">© 2025 Tsaleach Engenharia. Todos os direitos reservados.</p>
             <div className="flex gap-6">
               <Link
                 href="https://www.termsfeed.com/live/16725834-26e9-4e8a-8958-b35cb49c74c9"
